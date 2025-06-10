@@ -222,31 +222,8 @@
     <p>© 2024 BikeFix - Taller Mecánico de Bicicletas. Todos los derechos reservados.</p>
   </footer>
 
-  <script>
-    document.getElementById('contactForm').addEventListener('submit', function(e) {
-      e.preventDefault();
-      const name = this.name.value.trim();
-      const email = this.email.value.trim();
-      const message = this.message.value.trim();
-      if (!name) {
-        alert('Por favor, ingresa tu nombre.');
-        this.name.focus();
-        return;
-      }
-      if (!email || !email.includes('@')) {
-        alert('Por favor, ingresa un correo electrónico válido.');
-        this.email.focus();
-        return;
-      }
-      if (!message) {
-        alert('Por favor, escribe un mensaje.');
-        this.message.focus();
-        return;
-      }
-      alert('Gracias por contactarnos, ' + name + '! Te responderemos pronto.');
-      this.reset();
-    });
-  </script>
+  
+
 </body>
 	
 	<header>
